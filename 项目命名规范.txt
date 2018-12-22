@@ -1,0 +1,24 @@
+项目包名目规范：
+ 1.org.学生姓名拼音.项目名称(webshop).包的功能(domain 实体对象 dao 数据库操作对象 web.servlet 控制器对象 util 工具对象)
+ 2.实体对象命名规范，与数据库表对应 必须按照类命名规则
+    如：xiaoyi_good(数据库表命名)  类：Good  
+ 3.数据库操作对象(实体对象类-Dao) 如：Userinfo 对应的数据库操作对象命名： UserinfoDao   
+ 4.控制器命名规范(实体对象类-Servlet) 如：Userinfo 对应的控制器对象命名：UserinfoServlet
+ 
+ WebContent页面项目规范
+ 1.page 目录存放页面文件(jsp页面 html页面)
+     page/admin/ ---后台页面目录
+     page/admin/main/ ---后台主页面目录
+     page/admin/模块目录/页面文件 如：后台用户管理模块 page/admin/user/list.jsp add.jsp update.jsp  商品后台管理模块： page/admin/good/页面.jsp
+ 2.lib 目录保存web前端框架 如：lib/bootstrap/xx   lib/jquery lib/layui    
+ 
+ 3.资源文件目录
+    admin --后台资源根目录
+        admin/frame---基于layui的vip-admin页面框架
+        admin/csss ---后台css文件
+        admin/js  --后台js文件
+     
+     
+ 
+ 
+ 
